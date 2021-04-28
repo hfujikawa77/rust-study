@@ -1,0 +1,10 @@
+[package]
+name = "mavlink_rust_study"
+version = "0.1.0"
+authors = ["Fujikawa Hideyuki <hfujikawa77@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+mavlink = { version = "0.9", features = [ "ardupilotmega"] }
